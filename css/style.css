@@ -5,13 +5,13 @@ html{
 #wrapper{
 	margin: 0 auto;
 	padding: 0;
-	width: 1270px;
+	width: 1280px;
 	background-color: #000;
 }
 
 .background{
 	overflow: hidden;
-	width: 1270px;
+	width: 1280px;
 	height: 750px;
 	background-image:url('../img/fawn.jpg');
 	background-repeat:  repeat;
@@ -91,7 +91,9 @@ margin-left: -35px;
 
 .pic{
 background-color: #000;
-
+width: 1280px;
+height: 702px;
+overflow: hidden;
 }
 .pic p{
 	text-align: center;
@@ -100,8 +102,12 @@ background-color: #000;
 .pic ul{
 	text-decoration: none;
 	list-style: none;
+	margin-top: 0px;
+	margin-left: -40px;
 }
-
+.pic li{
+	display: inline-block;
+}
 
 footer{
 	background-color: #000;
@@ -130,23 +136,10 @@ footer li{
 	margin-top: -25px;
 	margin-left: 1075px;
 }
+/*-------------slideShow-------------------------------------------*/
 
 
-/*------------- media Queries -------------------------------------*/
-@media(max-width: 640px){
-
-}
-
-@media(min-width: 1600px){
-.Rnav{
-	left: 250px;
-}
-.Lnav{
-	left: 1225px;
-}
-
-}
-/*---------------- 404 styles -------------------------------------*/
+/*---------------- 404-500 styles -------------------------------------*/
 .bg{
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 1.25em;
@@ -164,6 +157,19 @@ footer li{
 	padding-left: 50px;
 }
 
-/*---------------- end 404 styles -------------------------------------*/
+/*---------------- end 404-500 styles -------------------------------------*/
 
+/*------------- media Queries -------------------------------------*/
+@media(max-width: 640px){
 
+}
+
+@media(min-width: 1600px){
+.Rnav{
+	left: 250px;
+}
+.Lnav{
+	left: 1225px;
+}
+
+}
