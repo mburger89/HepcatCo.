@@ -1,1 +1,1 @@
-this is a webiste for my freinds kickstarter
+This is a webiste for a freind of mines kickstarter.
