@@ -65,7 +65,6 @@ margin-left: -35px;
 
 }
 
-
 .aboutUs{
 	width: 427px;
 	margin-left: 425px;
@@ -165,6 +164,11 @@ footer li{
 #headerimg{
 	margin-left: -488px;
 }
+.logo{
+	padding-left: 130px;
+	width:50px;
+	height: 55px;
+}
 .Rnav{
 	left: 90px;
 	top: 430px;
@@ -175,13 +179,14 @@ footer li{
 	}
 .Lnav{
 	left: 5px;
-	top: 10px;
+	top: 20px;
 	position: absolute;
 }
 .Lnav a{
+	margin-top: 15px;
 	padding-top: 5px;
 	display: inline-block;
-	margin-left: 15px;
+	margin-left: 12px;
 }
 .aboutUs{
 	margin-left: 10px;
@@ -192,6 +197,17 @@ footer li{
 }
 .aboutUs h3{
 	padding-top: 10px;
+}
+footer{
+	width: 326px;
+}
+footer ul{
+	display: flex: 
+}
+footer li{	
+	padding-left: 2px;
+	display:block;
+	padding-top: 8px;
 }
 }
 
