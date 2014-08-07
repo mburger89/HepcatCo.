@@ -17,13 +17,13 @@ html{
 	background-repeat:  repeat;
 }
 
-.Rnav{
+.Lnav{
 	position: fixed;
 	top: 80px;
 	left: 100px;
 }
 
-.Rnav a{
+.Lnav a{
 	text-decoration: none;
 	padding-left: 18px;
 	padding-top: 30px;
@@ -36,15 +36,15 @@ html{
 	font-weight: bold;
 
 }
-.Lnav{
+.Rnav{
 	position: fixed;
 	top: 115px;
 	left: 1025px;
 }
-.Lnav ul{
+.Rnav ul{
 margin-left: -35px;
 }
-.Lnav li{
+.Rnav li{
 	padding-top: 20px;
 	color: #fff;
 	font-family: 'Helvetica Neue', Helvetica, sans-serif;
@@ -139,6 +139,7 @@ footer li{
 /*-------------slideShow-------------------------------------------*/
 
 
+
 /*---------------- 404-500 styles -------------------------------------*/
 .bg{
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -161,14 +162,31 @@ footer li{
 
 /*------------- media Queries -------------------------------------*/
 @media(max-width: 640px){
+.Rnav{
+	left: 150px;
+	top: 20px;
+	position: absolute;
+}
+.Lnav{
+	left: 5px;
+	top: 20px;
+	position: absolute;
 
+}
+.Lnav a{
+	padding-top: 5px;
+	
+}
+#headerimg{
+	margin-left: -488px;
+}
 }
 
 @media(min-width: 1600px){
-.Rnav{
+.Lnav{
 	left: 250px;
 }
-.Lnav{
+.Rnav{
 	left: 1225px;
 }
 
