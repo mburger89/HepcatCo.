@@ -160,7 +160,7 @@ footer li{
 /*---------------- end 404-500 styles -------------------------------------*/
 
 /*------------- media Queries -------------------------------------*/
-@media(max-width: 640px){
+@media(max-width: 400px){
 #headerimg{
 	margin-left: -488px;
 }
@@ -208,6 +208,10 @@ footer li{
 	padding-left: 2px;
 	display:block;
 	padding-top: 8px;
+}
+.hepcatType{
+	margin-top: -210px;
+	margin-left: 200px;
 }
 }
 
