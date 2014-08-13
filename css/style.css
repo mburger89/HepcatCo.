@@ -12,7 +12,7 @@ html{
 .background{
 	overflow: hidden;
 	width: 1280px;
-	height: 750px;
+	height: 830px;
 	background-image:url('../img/fawn.jpg');
 	background-repeat:  repeat;
 }
@@ -88,7 +88,7 @@ margin-left: -35px;
 	padding-top: 50px;
 }
 
-/*
+
 .SlideShow{
 background-color: #000;
 width: 1280px;
@@ -107,7 +107,7 @@ overflow: hidden;
 }
 .SlideShow li{
 	display: inline-block;
-}*/
+}
 
 footer{
 	background-color: #000;
